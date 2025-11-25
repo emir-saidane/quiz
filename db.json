@@ -1,0 +1,69 @@
+{
+  "quizData": {
+    "q1": {
+      "question": "1️ Quels sont des types de données en JavaScript ?",
+      "options": [
+        {"value": "string", "label": "string"},
+        {"value": "boolean", "label": "boolean"},
+        {"value": "component", "label": "component"},
+        {"value": "number", "label": "number"}
+      ],
+      "type": "checkbox"
+    },
+    "q2": {
+      "question": "2️ Quel est le framework utilisé pour créer des composants réactifs ?",
+      "options": [
+        {"value": "react", "label": "React"},
+        {"value": "vue", "label": "Vue.js"},
+        {"value": "bootstrap", "label": "Bootstrap"}
+      ],
+      "type": "radio"
+    },
+    "q3": {
+      "question": "3️ En JavaScript, quel mot-clé permet de déclarer une variable modifiable ?",
+      "type": "text"
+    },
+    "q4": {
+      "question": "4️ Remets dans l’ordre le cycle de vie de Vue.js",
+      "items": [
+        "Création de l’instance",
+        "Rendu du DOM",
+        "Mise à jour réactive",
+        "Destruction"
+      ],
+      "correctOrder": [1, 2, 3, 4],
+      "type": "order"
+    },
+    "q5": {
+      "question": "5️ Associe chaque directive à sa fonction",
+      "matchingLeft": ["v-model", "v-if", "v-for", "methods"],
+      "matchingRight": [
+        "liaison bidirectionnelle",
+        "condition",
+        "boucle",
+        "actions"
+      ],
+      "type": "matching"
+    },
+    "q6": {
+      "question": "6️⃣ Quel doit être ton premier réflexe quand tu as une erreur ?",
+      "options": [
+        {"value": "1", "label": "Demander de l'aide"},
+        {"value": "2", "label": "Vérifier la console"},
+        {"value": "3", "label": "Consulter une IA"},
+        {"value": "4", "label": "Faire une pause"}
+      ],
+      "type": "radio"
+    },
+    "q7": {
+      "question": "7️⃣ À quoi sert un composant dans Vue.js ?",
+      "options": [
+        {"value": "1", "label": "Diviser l'application en parties réutilisables"},
+        {"value": "2", "label": "Changer les couleurs du site"},
+        {"value": "3", "label": "Stocker les images"},
+        {"value": "4", "label": "Améliorer la connexion"}
+      ],
+      "type": "radio"
+    }
+  }
+}
