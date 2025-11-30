@@ -3,35 +3,28 @@
     {
       "id": 1,
       "text": "Quel est le nom du framework utilisé pour ce projet ?",
-      "choices": [
-        "React",
-        "Angular",
-        "Vue.js",
-        "Svelte"
-      ],
+      "choices": [ /* ... */ ],
       "correct_answer_index": 2
     },
     {
       "id": 2,
       "text": "Quelle librairie est utilisée dans le cours pour les appels API ?",
-      "choices": [
-        "Fetch",
-        "Axios",
-        "jQuery",
-        "Volley"
-      ],
+      "choices": [ /* ... */ ],
       "correct_answer_index": 1
     },
+    // NOUVELLE QUESTION DE SAISIE DE TEXTE
     {
       "id": 3,
-      "text": "Quel symbole est utilisé dans Vue Router pour définir un segment dynamique ?",
-      "choices": [
-        "?",
-        "#",
-        ":",
-        "$"
-      ],
-      "correct_answer_index": 2
+      "text": "En JavaScript, quel mot-clé permet de déclarer une variable modifiable ?",
+      "input_type": "text", // Indicateur que c'est une question à saisir
+      "correct_answer": "let" // La réponse attendue (en minuscules)
+    },
+    // Si vous aviez d'autres questions après, ajustez leurs IDs en conséquence !
+    {
+      "id": 4, // (Ancienne Question 3 si vous aviez 3 questions avant)
+      "text": "...",
+      "choices": [ /* ... */ ],
+      "correct_answer_index": 0
     }
   ]
 }
