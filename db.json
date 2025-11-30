@@ -3,28 +3,30 @@
     {
       "id": 1,
       "text": "Quel est le nom du framework utilisé pour ce projet ?",
-      "choices": [],
+      "choices": [
+        "React",
+        "Angular",
+        "Vue.js",
+        "Svelte"
+      ],
       "correct_answer_index": 2
     },
     {
       "id": 2,
       "text": "Quelle librairie est utilisée dans le cours pour les appels API ?",
-      "choices": [],
+      "choices": [
+        "Fetch",
+        "Axios",
+        "jQuery",
+        "Volley"
+      ],
       "correct_answer_index": 1
     },
-
     {
       "id": 3,
       "text": "En JavaScript, quel mot-clé permet de déclarer une variable modifiable ?",
-      "input_type": "text",
-      "correct_answer": "let"
-    },
-
-    {
-      "id": 4, 
-      "text": "...",
-      "choices": [],
-      "correct_answer_index": 0
+      "input_type": "text", 
+      "correct_answer": "let" 
     }
   ]
 }
