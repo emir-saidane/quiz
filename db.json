@@ -111,5 +111,25 @@
             ],
             "correct_answer_index": 1
         }
-    ]
+    ],
+    "questions_quiz2": [
+        {
+            "id": 1,
+            "text": "Quelle est la capitale de l'Australie ?",
+            "choices": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Perth"
+            ],
+            "correct_answer_index": 2
+        },
+        {
+            "id": 2,
+            "text": "Quel est le plus grand océan du monde ?",
+            "input_type": "text",
+            "correct_answer": "Pacifique"
+        }
+    ],
+    "leaderboard": []
 }
