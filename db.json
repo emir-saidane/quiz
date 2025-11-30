@@ -2,38 +2,33 @@
   "questions": [
     {
       "id": 1,
-      "text": "Quel est le nom du framework utilisé pour ce projet ?",
+      "text": "Quel est le nom du framework JavaScript progressif utilisé pour ce projet ?",
       "choices": ["React", "Angular", "Vue.js", "Svelte"],
       "correct_answer_index": 2
     },
     {
       "id": 2,
-      "text": "Quelle librairie est utilisée dans le cours pour les appels API ?",
+      "text": "Quelle librairie est recommandée dans le cours pour effectuer des appels API ?",
       "choices": ["Fetch", "Axios", "jQuery", "Volley"],
       "correct_answer_index": 1
     },
     {
       "id": 3,
-      "text": "En JavaScript, quel mot-clé permet de déclarer une variable modifiable ?",
+      "text": "En JavaScript, quel mot-clé permet de déclarer une variable dont la valeur ne peut pas être réaffectée après son initialisation ?",
       "input_type": "text",
-      "correct_answer": "let"
+      "correct_answer": "const"
     },
     {
       "id": 4,
-      "text": "Dans Vue.js, quelle directive est utilisée pour le rendu conditionnel (afficher ou cacher un élément) ?",
-      "choices": ["v-bind", "v-for", "v-if", "v-on"],
+      "text": "Quelle directive Vue.js est utilisée pour la liaison unidirectionnelle d'attributs (ex: `:href`, `:class`) ?",
+      "choices": ["v-if", "v-for", "v-bind", "v-on"],
       "correct_answer_index": 2
     },
     {
       "id": 5,
-      "text": "Quelle est la principale fonction du 'setup' hook (ou de la fonction `setup()` dans Composition API) ?",
-      "choices": [
-        "Exécuter l'appel API après le rendu.",
-        "Définir les propriétés réactives et les méthodes.",
-        "Détruire le composant.",
-        "Gérer les événements du DOM."
-      ],
-      "correct_answer_index": 1
+      "text": "Dans le cycle de vie d'un composant Vue, quel hook est appelé juste avant que le composant ne soit retiré du DOM ?",
+      "choices": ["created", "mounted", "beforeUnmount", "unmounted"],
+      "correct_answer_index": 2
     },
     {
       "id": 6,
@@ -43,71 +38,162 @@
     },
     {
       "id": 7,
-      "text": "En CSS, quelle propriété permet de modifier la couleur du texte ?",
-      "choices": ["background-color", "font-color", "text-style", "color"],
-      "correct_answer_index": 3
-    },
-    {
-      "id": 8,
-      "text": "Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau (Array) ?",
-      "choices": ["concat()", "append()", "push()", "insert()"],
+      "text": "Quel est le rôle principal de `<router-view />` dans une application Vue Router ?",
+      "choices": [
+        "Créer des liens de navigation.",
+        "Stocker l'état de la session.",
+        "Afficher le composant correspondant à la route actuelle.",
+        "Gérer les requêtes Axios."
+      ],
       "correct_answer_index": 2
     },
     {
-      "id": 9,
-      "text": "Quel port est généralement utilisé par le serveur de développement par défaut lors de l'exécution d'un projet Vue.js (npm run serve) ?",
-      "input_type": "text",
-      "correct_answer": "8080"
-    },
-    {
-      "id": 10,
-      "text": "Quels sont les mots-clés utilisés en JavaScript pour déclarer une variable ?",
+      "id": 8,
+      "text": "Quelles méthodes JavaScript sont utilisées pour manipuler des tableaux (Array) ?",
       "type": "checkbox",
-      "choices": ["let", "var", "const", "int"],
+      "choices": ["map()", "filter()", "forEach()", "get()"],
       "correct_indices": [0, 1, 2]
     },
     {
-      "id": 11,
-      "text": "Comment se nomme la mémoire du navigateur que vous utilisez pour stocker le score du quiz ?",
-      "choices": ["localStorage", "sessionStorage", "cookieStorage", "globalCache"],
-      "correct_answer_index": 1
+      "id": 9,
+      "text": "Quelle méthode HTTP est utilisée pour envoyer des données à un serveur afin de créer une nouvelle ressource (comme enregistrer un score) ?",
+      "input_type": "text",
+      "correct_answer": "POST"
+    },
+    {
+      "id": 10,
+      "text": "Lequel des éléments suivants est considéré comme un 'hook de cycle de vie' de Vue.js ?",
+      "choices": ["setup", "onStart", "beforeRouteEnter", "beforeCreate"],
+      "correct_answer_index": 3
     }
   ],
 
   "questions_quiz2": [
     {
       "id": 1,
-      "text": "Quelle est la capitale de l'Australie ?",
-      "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "text": "Comment appelle-t-on le fichier qui centralise la configuration des routes dans un projet Vue CLI ?",
+      "choices": ["main.js", "App.vue", "router/index.js", "vue.config.js"],
       "correct_answer_index": 2
     },
     {
       "id": 2,
-      "text": "Quel est le plus grand océan du monde ?",
+      "text": "Quelle est la syntaxe correcte pour utiliser le `v-model` avec un champ de saisie ?",
+      "choices": ["v-model:variable", "v-model=\"variable\"", "v-bind=\"variable\"", "v-on:input=\"variable\""],
+      "correct_answer_index": 1
+    },
+    {
+      "id": 3,
+      "text": "En CSS, quel sélecteur permet de cibler un élément par son ID ?",
       "input_type": "text",
-      "correct_answer": "Pacifique"
+      "correct_answer": "#"
+    },
+    {
+      "id": 4,
+      "text": "Quelles sont les options que vous pouvez passer à un composant via le tableau `props` ?",
+      "type": "checkbox",
+      "choices": ["Données (data)", "Événements (events)", "Méthodes", "Paramètres de la route"],
+      "correct_indices": [3]
+    },
+    {
+      "id": 5,
+      "text": "Quel objet de navigateur est souvent utilisé pour stocker temporairement l'état (comme le score du quiz) ?",
+      "choices": ["URLSearchParams", "DOM", "SessionStorage", "Window"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 6,
+      "text": "Comment doit être nommé le fichier de données sur GitHub pour qu'il soit utilisé par My JSON Server ?",
+      "input_type": "text",
+      "correct_answer": "db.json"
+    },
+    {
+      "id": 7,
+      "text": "Quelle méthode Axios est utilisée pour récupérer des données à partir d'une URL ?",
+      "choices": ["axios.post()", "axios.put()", "axios.delete()", "axios.get()"],
+      "correct_answer_index": 3
+    },
+    {
+      "id": 8,
+      "text": "Lequel des éléments suivants est un type de données primitif en JavaScript ?",
+      "choices": ["Array", "Object", "Boolean", "Function"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 9,
+      "text": "Quelle est la fonction d'une variable `ref()` ou `reactive()` dans la Composition API de Vue.js ?",
+      "choices": ["Créer un élément HTML.", "Rendre une variable réactive.", "Stopper un appel API.", "Définir une fonction asynchrone."],
+      "correct_answer_index": 1
+    },
+    {
+      "id": 10,
+      "text": "Quels sont les avantages d'utiliser des services (comme `QuizService.js`) pour les appels API ?",
+      "type": "checkbox",
+      "choices": ["Centralisation du code", "Réutilisation facile", "Découplage (moins de dépendances)", "Accès direct au DOM"],
+      "correct_indices": [0, 1, 2]
     }
   ],
 
   "questions_quiz3": [
     {
       "id": 1,
-      "text": "Quelle méthode est utilisée en Vue pour initialiser les données réactives ?",
-      "choices": ["methods", "data", "computed", "watch"],
-      "correct_answer_index": 1
+      "text": "Quelle directive est utilisée pour afficher une liste d'éléments à partir d'un tableau en Vue.js ?",
+      "choices": ["v-bind", "v-on", "v-for", "v-show"],
+      "correct_answer_index": 2
     },
     {
       "id": 2,
-      "text": "Nommez le navigateur créé par Google.",
-      "input_type": "text",
-      "correct_answer": "Chrome"
+      "text": "Dans une promesse JavaScript (`Promise`), quelle méthode est utilisée pour gérer une erreur ou un échec ?",
+      "choices": ["then()", "finally()", "catch()", "done()"],
+      "correct_answer_index": 2
     },
     {
       "id": 3,
-      "text": "Quels langages sont essentiels pour le front-end ?",
+      "text": "Que signifie l'acronyme DOM dans le contexte du développement Web ?",
+      "input_type": "text",
+      "correct_answer": "Document Object Model"
+    },
+    {
+      "id": 4,
+      "text": "Lors de la création d'une route Vue dynamique (`/quiz/:quizName/question/:id`), comment l'ID est-il récupéré dans le composant ?",
+      "choices": ["this.$data.id", "this.params.id", "this.id (si prop)", "this.$route.query.id"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 5,
+      "text": "En utilisant Axios, quelle est la propriété de l'objet de réponse qui contient les données JSON renvoyées par le serveur ?",
+      "choices": ["status", "headers", "config", "data"],
+      "correct_answer_index": 3
+    },
+    {
+      "id": 6,
+      "text": "Quel est le nom de la fonction qui permet d'insérer un tableau de routes dans l'application Vue ?",
+      "input_type": "text",
+      "correct_answer": "createRouter"
+    },
+    {
+      "id": 7,
+      "text": "Quelles sont les méthodes de navigation fournies par Vue Router ?",
       "type": "checkbox",
-      "choices": ["C#", "HTML", "CSS", "JavaScript"],
-      "correct_indices": [1, 2, 3]
+      "choices": ["push()", "pop()", "replace()", "go()"],
+      "correct_indices": [0, 2, 3]
+    },
+    {
+      "id": 8,
+      "text": "Quel est le principal inconvénient d'utiliser des données 'hard-coded' (écrites directement dans le composant) ?",
+      "choices": ["Performance réduite.", "Non réactives.", "Difficile à mettre à jour et non dynamiques.", "Problèmes de style CSS."],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 9,
+      "text": "Quel est le code de statut HTTP qu'un serveur renvoie typiquement pour signifier qu'une ressource demandée est introuvable ?",
+      "input_type": "text",
+      "correct_answer": "404"
+    },
+    {
+      "id": 10,
+      "text": "Comment doit être structurée une fonction exportée dans un Service (ex: `QuizService.js`) pour qu'elle soit facilement utilisable ?",
+      "choices": ["Elle doit être une classe.", "Elle doit retourner une Promesse.", "Elle doit être synchrone.", "Elle doit manipuler le DOM."],
+      "correct_answer_index": 1
     }
   ],
 
