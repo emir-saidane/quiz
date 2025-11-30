@@ -1,135 +1,115 @@
 {
-    "questions": [
-        {
-            "id": 1,
-            "text": "Quel est le nom du framework utilisé pour ce projet ?",
-            "choices": [
-                "React",
-                "Angular",
-                "Vue.js",
-                "Svelte"
-            ],
-            "correct_answer_index": 2
-        },
-        {
-            "id": 2,
-            "text": "Quelle librairie est utilisée dans le cours pour les appels API ?",
-            "choices": [
-                "Fetch",
-                "Axios",
-                "jQuery",
-                "Volley"
-            ],
-            "correct_answer_index": 1
-        },
-        {
-            "id": 3,
-            "text": "En JavaScript, quel mot-clé permet de déclarer une variable modifiable ?",
-            "input_type": "text",
-            "correct_answer": "let"
-        },
-        {
-            "id": 4,
-            "text": "Dans Vue.js, quelle directive est utilisée pour le rendu conditionnel (afficher ou cacher un élément) ?",
-            "choices": [
-                "v-bind",
-                "v-for",
-                "v-if",
-                "v-on"
-            ],
-            "correct_answer_index": 2
-        },
-        {
-            "id": 5,
-            "text": "Quelle est la principale fonction du 'setup' hook (ou de la fonction `setup()` dans Composition API) ?",
-            "choices": [
-                "Exécuter l'appel API après le rendu.",
-                "Définir les propriétés réactives et les méthodes.",
-                "Détruire le composant.",
-                "Gérer les événements du DOM."
-            ],
-            "correct_answer_index": 1
-        },
-        {
-            "id": 6,
-            "text": "Quel est le nom du hook de cycle de vie qui est appelé *après* que le composant a été monté et est visible dans le DOM ?",
-            "input_type": "text",
-            "correct_answer": "mounted"
-        },
-        {
-            "id": 7,
-            "text": "En CSS, quelle propriété permet de modifier la couleur du texte ?",
-            "choices": [
-                "background-color",
-                "font-color",
-                "text-style",
-                "color"
-            ],
-            "correct_answer_index": 3
-        },
-        {
-            "id": 8,
-            "text": "Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau (Array) ?",
-            "choices": [
-                "concat()",
-                "append()",
-                "push()",
-                "insert()"
-            ],
-            "correct_answer_index": 2
-        },
-        {
-            "id": 9,
-            "text": "Quel port est généralement utilisé par le serveur de développement par défaut lors de l'exécution d'un projet Vue.js (npm run serve) ?",
-            "input_type": "text",
-            "correct_answer": "8080"
-        },
-        {
-            "id": 10,
-            "text": "Quels sont les mots-clés utilisés en JavaScript pour déclarer une variable ?",
-            "type": "checkbox",
-            "choices": [
-                "let",
-                "var",
-                "const",
-                "int"
-            ],
-            "correct_indices": [
-                0,
-                1,
-                2
-            ]
-        },
-        {
-            "id": 11,
-            "text": "Comment se nomme la mémoire du navigateur que vous utilisez pour stocker le score du quiz ?",
-            "choices": [
-                "localStorage",
-                "sessionStorage",
-                "cookieStorage",
-                "globalCache"
-            ],
-            "correct_answer_index": 1
-        }
-    ],
-    "questions_quiz2": [
-        {
-            "id": 1,
-            "text": "Quelle est la capitale de l'Australie ?",
-            "choices": [
-                "Sydney",
-                "Melbourne",
-                "Canberra",
-                "Perth"
-            ],
-            "correct_answer_index": 2
-        },
-        {
-            "id": 2,
-            "text": "Quel est le plus grand océan du monde ?",
-            "input_type": "text",
-            "correct_answer": "Pacifique"
-        }
-    ],
-    "leaderboard": []
+  "questions": [
+    {
+      "id": 1,
+      "text": "Quel est le nom du framework utilisé pour ce projet ?",
+      "choices": ["React", "Angular", "Vue.js", "Svelte"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 2,
+      "text": "Quelle librairie est utilisée dans le cours pour les appels API ?",
+      "choices": ["Fetch", "Axios", "jQuery", "Volley"],
+      "correct_answer_index": 1
+    },
+    {
+      "id": 3,
+      "text": "En JavaScript, quel mot-clé permet de déclarer une variable modifiable ?",
+      "input_type": "text",
+      "correct_answer": "let"
+    },
+    {
+      "id": 4,
+      "text": "Dans Vue.js, quelle directive est utilisée pour le rendu conditionnel (afficher ou cacher un élément) ?",
+      "choices": ["v-bind", "v-for", "v-if", "v-on"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 5,
+      "text": "Quelle est la principale fonction du 'setup' hook (ou de la fonction `setup()` dans Composition API) ?",
+      "choices": [
+        "Exécuter l'appel API après le rendu.",
+        "Définir les propriétés réactives et les méthodes.",
+        "Détruire le composant.",
+        "Gérer les événements du DOM."
+      ],
+      "correct_answer_index": 1
+    },
+    {
+      "id": 6,
+      "text": "Quel est le nom du hook de cycle de vie qui est appelé *après* que le composant a été monté et est visible dans le DOM ?",
+      "input_type": "text",
+      "correct_answer": "mounted"
+    },
+    {
+      "id": 7,
+      "text": "En CSS, quelle propriété permet de modifier la couleur du texte ?",
+      "choices": ["background-color", "font-color", "text-style", "color"],
+      "correct_answer_index": 3
+    },
+    {
+      "id": 8,
+      "text": "Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau (Array) ?",
+      "choices": ["concat()", "append()", "push()", "insert()"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 9,
+      "text": "Quel port est généralement utilisé par le serveur de développement par défaut lors de l'exécution d'un projet Vue.js (npm run serve) ?",
+      "input_type": "text",
+      "correct_answer": "8080"
+    },
+    {
+      "id": 10,
+      "text": "Quels sont les mots-clés utilisés en JavaScript pour déclarer une variable ?",
+      "type": "checkbox",
+      "choices": ["let", "var", "const", "int"],
+      "correct_indices": [0, 1, 2]
+    },
+    {
+      "id": 11,
+      "text": "Comment se nomme la mémoire du navigateur que vous utilisez pour stocker le score du quiz ?",
+      "choices": ["localStorage", "sessionStorage", "cookieStorage", "globalCache"],
+      "correct_answer_index": 1
+    }
+  ],
+
+  "questions_quiz2": [
+    {
+      "id": 1,
+      "text": "Quelle est la capitale de l'Australie ?",
+      "choices": ["Sydney", "Melbourne", "Canberra", "Perth"],
+      "correct_answer_index": 2
+    },
+    {
+      "id": 2,
+      "text": "Quel est le plus grand océan du monde ?",
+      "input_type": "text",
+      "correct_answer": "Pacifique"
+    }
+  ],
+
+  "questions_quiz3": [
+    {
+      "id": 1,
+      "text": "Quelle méthode est utilisée en Vue pour initialiser les données réactives ?",
+      "choices": ["methods", "data", "computed", "watch"],
+      "correct_answer_index": 1
+    },
+    {
+      "id": 2,
+      "text": "Nommez le navigateur créé par Google.",
+      "input_type": "text",
+      "correct_answer": "Chrome"
+    },
+    {
+      "id": 3,
+      "text": "Quels langages sont essentiels pour le front-end ?",
+      "type": "checkbox",
+      "choices": ["C#", "HTML", "CSS", "JavaScript"],
+      "correct_indices": [1, 2, 3]
+    }
+  ],
+
+  "leaderboard": []
 }
