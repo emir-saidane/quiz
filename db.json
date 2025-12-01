@@ -82,9 +82,9 @@
     },
     {
       "id": 3,
-      "text": "En CSS, quel sélecteur permet de cibler un élément par son ID ?",
+      "text": "pour lancer votre projet vue qu'est ce que vous ecrivez dans le terminal ?",
       "input_type": "text",
-      "correct_answer": "#"
+      "correct_answer": "npm run serve"
     },
     {
       "id": 4,
