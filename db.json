@@ -67,7 +67,6 @@
       "correct_answer_index": 3
     }
   ],
-
   "questions_quiz2": [
     {
       "id": 1,
@@ -132,7 +131,6 @@
       "correct_indices": [0, 1, 2]
     }
   ],
-
   "questions_quiz3": [
     {
       "id": 1,
@@ -196,6 +194,5 @@
       "correct_answer_index": 1
     }
   ],
-
   "leaderboard": []
 }
