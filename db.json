@@ -24,18 +24,18 @@
       "choices": ["v-if", "v-for", "v-bind", "v-on"],
       "correct_answer_index": 2
     },
-    {
-      "id": 5,
-      "text": "Dans le cycle de vie d'un composant Vue, quel hook est appelé juste avant que le composant ne soit retiré du DOM ?",
-      "choices": ["created", "mounted", "beforeUnmount", "unmounted"],
-      "correct_answer_index": 2
-    },
-    {
-      "id": 6,
-      "text": "Quel est le nom du hook de cycle de vie qui est appelé *après* que le composant a été monté et est visible dans le DOM ?",
-      "input_type": "text",
-      "correct_answer": "mounted"
-    },
+ {
+  "id": 5,
+  "text": "Quel doit être le réflexe initial lorsque l'on rencontre un bug dans son code ?",
+  "choices": ["Consulter une IA", "Demander de l'aide à un ami", "Consulter la console", "Faire une pause"],
+  "correct_answer_index": 2
+},
+   {
+  "id": 6,
+  "text": "En Vue.js, quelle propriété doit-on utiliser dans le bloc <script> pour que les données qu'elle contient soient réactives et puissent changer l'affichage (le DOM) ?",
+  "input_type": "text",
+  "correct_answer": "data"
+},
     {
       "id": 7,
       "text": "Quel est le rôle principal de `<router-view />` dans une application Vue Router ?",
@@ -51,15 +51,15 @@
       "id": 8,
       "text": "Quelles méthodes JavaScript sont utilisées pour manipuler des tableaux (Array) ?",
       "type": "checkbox",
-      "choices": ["map()", "filter()", "forEach()", "get()"],
+      "choices": ["map()", "filter()", "push()", "get()"],
       "correct_indices": [0, 1, 2]
     },
-    {
-      "id": 9,
-      "text": "Quelle méthode HTTP est utilisée pour envoyer des données à un serveur afin de créer une nouvelle ressource (comme enregistrer un score) ?",
-      "input_type": "text",
-      "correct_answer": "POST"
-    },
+   {
+  "id": 9,
+  "text": "Quelle directive Vue est principalement utilisée pour le 'two-way data binding' (liaison de données bidirectionnelle) sur les éléments de formulaire ?",
+  "choices": ["v-if", "v-for", "v-model", "v-bind"],
+  "correct_answer_index": 2
+},
     {
       "id": 10,
       "text": "Lequel des éléments suivants est considéré comme un 'hook de cycle de vie' de Vue.js ?",
@@ -117,12 +117,12 @@
       "choices": ["Array", "Object", "Boolean", "Function"],
       "correct_answer_index": 2
     },
-    {
-      "id": 9,
-      "text": "Quelle est la fonction d'une variable `ref()` ou `reactive()` dans la Composition API de Vue.js ?",
-      "choices": ["Créer un élément HTML.", "Rendre une variable réactive.", "Stopper un appel API.", "Définir une fonction asynchrone."],
-      "correct_answer_index": 1
-    },
+ {
+  "id": 9,
+  "text": "En JavaScript, quel mot-clé est utilisé pour déclarer une variable qui ne peut pas être réaffectée (dont la valeur ne peut pas changer) ?",
+  "choices": ["var", "let", "const", "new"],
+  "correct_answer_index": 2
+},
     {
       "id": 10,
       "text": "Quels sont les avantages d'utiliser des services (comme `QuizService.js`) pour les appels API ?",
