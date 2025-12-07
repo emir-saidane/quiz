@@ -2,188 +2,197 @@
   "questions": [
     {
       "id": 1,
-      "text": "Quel est le rôle principal d’un infirmier dans un service hospitalier ?",
-      "choices": ["Diagnostiquer", "Opérer", "Soigner et surveiller les patients", "Prescrire des médicaments"],
+      "text": "Quel est le nom du framework JavaScript progressif utilisé pour ce projet ?",
+      "choices": ["React", "Angular", "Vue.js", "Svelte"],
       "correct_answer_index": 2
     },
     {
       "id": 2,
-      "text": "Quel outil permet de mesurer la tension artérielle du patient ?",
-      "choices": ["Stéthoscope", "Tensiomètre", "Oxymètre", "Thermomètre"],
+      "text": "Quelle librairie est recommandée dans le cours pour effectuer des appels API ?",
+      "choices": ["Fetch", "Axios", "jQuery", "Volley"],
       "correct_answer_index": 1
     },
     {
       "id": 3,
-      "text": "Quel signe vital permet d’évaluer l'oxygénation du sang ?",
-      "choices": ["Glycémie", "Saturation", "Taille", "Poids"],
-      "correct_answer_index": 1
+      "text": "En JavaScript, quel mot-clé permet de déclarer une variable dont la valeur ne peut pas être réaffectée après son initialisation ?",
+      "input_type": "text",
+      "correct_answer": "const"
     },
     {
       "id": 4,
-      "text": "Quel document l’infirmier remplit pour noter les soins effectués ?",
-      "choices": ["Ordonnance", "Dossier patient", "Certificat", "Autorisation"],
-      "correct_answer_index": 1
+      "text": "Quelle directive Vue.js est utilisée pour la liaison unidirectionnelle d'attributs (ex: :href, :class) ?",
+      "choices": ["v-if", "v-for", "v-bind", "v-on"],
+      "correct_answer_index": 2
     },
     {
       "id": 5,
-      "text": "Quel appareil est utilisé pour mesurer la température corporelle ?",
-      "choices": ["Thermomètre", "Tensiomètre", "Oxymètre", "ECG"],
-      "correct_answer_index": 0
+      "text": "Quel doit être le réflexe initial lorsque l'on rencontre un bug dans son code ?",
+      "choices": ["Consulter une IA", "Demander de l'aide à un ami", "Consulter la console", "Faire une pause"],
+      "correct_answer_index": 2
     },
     {
       "id": 6,
-      "text": "Comment s’appelle l’administration d’un médicament directement dans une veine ?",
-      "choices": ["Injection intramusculaire", "Injection intraveineuse", "Injection sous-cutanée", "Administration orale"],
-      "correct_answer_index": 1
+      "text": "En Vue.js, quelle propriété doit-on utiliser dans le bloc <script> pour que les données qu'elle contient soient réactives et puissent changer l'affichage (le DOM) ?",
+      "input_type": "text",
+      "correct_answer": "data"
     },
     {
       "id": 7,
-      "text": "Quel équipement protège l’infirmier contre les infections ?",
-      "choices": ["Gants", "Casque audio", "Chaussures de sport", "Montre connectée"],
-      "correct_answer_index": 0
+      "text": "Quel est le rôle principal de <router-view /> dans une application Vue Router ?",
+      "choices": [
+        "Créer des liens de navigation.",
+        "Stocker l'état de la session.",
+        "Afficher le composant correspondant à la route actuelle.",
+        "Gérer les requêtes Axios."
+      ],
+      "correct_answer_index": 2
     },
     {
       "id": 8,
-      "text": "Quel outil est utilisé pour écouter le cœur du patient ?",
-      "choices": ["Défibrillateur", "Stéthoscope", "Thermomètre", "Ventoline"],
-      "correct_answer_index": 1
+      "text": "Quelles méthodes JavaScript sont utilisées pour manipuler des tableaux (Array) ?",
+      "type": "checkbox",
+      "choices": ["map()", "filter()", "push()", "get()"],
+      "correct_indices": [0, 1, 2]
     },
     {
       "id": 9,
-      "text": "Quel soin permet d’éviter les escarres chez un patient alité ?",
-      "choices": ["Injection IV", "Changement de position", "Administrer un sirop", "Mesurer la tension"],
-      "correct_answer_index": 1
+      "text": "Quelle directive Vue est principalement utilisée pour le 'two-way data binding' (liaison de données bidirectionnelle) sur les éléments de formulaire ?",
+      "choices": ["v-if", "v-for", "v-model", "v-bind"],
+      "correct_answer_index": 2
     },
     {
       "id": 10,
-      "text": "À quoi sert principalement le lavage des mains en soins infirmiers ?",
-      "choices": ["Hydrater la peau", "Éliminer les microbes", "Refroidir les mains", "Améliorer la circulation"],
-      "correct_answer_index": 1
+      "text": "Lequel des éléments suivants est considéré comme un 'hook de cycle de vie' de Vue.js ?",
+      "choices": ["setup", "onStart", "beforeRouteEnter", "beforeCreate"],
+      "correct_answer_index": 3
     }
   ],
 
   "questions_quiz2": [
     {
       "id": 1,
-      "text": "Quelle partie du cerveau coordonne les mouvements ?",
-      "choices": ["Cortex frontal", "Cervelet", "Tronc cérébral", "Hypophyse"],
-      "correct_answer_index": 1
+      "text": "Comment appelle-t-on le fichier qui centralise la configuration des routes dans un projet Vue CLI ?",
+      "choices": ["main.js", "App.vue", "router/index.js", "vue.config.js"],
+      "correct_answer_index": 2
     },
     {
       "id": 2,
-      "text": "Comment appelle-t-on les cellules qui transmettent les signaux nerveux ?",
-      "choices": ["Globules rouges", "Neurones", "Fibres musculaires", "Cellules graisseuses"],
+      "text": "Quelle est la syntaxe correcte pour utiliser le v-model avec un champ de saisie ?",
+      "choices": ["v-model:variable", "v-model=\"variable\"", "v-bind=\"variable\"", "v-on:input=\"variable\""],
       "correct_answer_index": 1
     },
     {
       "id": 3,
-      "text": "Quelle structure contrôle la peur et les émotions fortes ?",
-      "choices": ["Cervelet", "Amygdale", "Hypothalamus", "Cortex occipital"],
-      "correct_answer_index": 1
+      "text": "pour lancer votre projet vue qu'est ce que vous ecrivez dans le terminal ?",
+      "input_type": "text",
+      "correct_answer": "npm run serve"
     },
     {
       "id": 4,
-      "text": "Quel hémisphère du cerveau est associé à la logique et au langage ?",
-      "choices": ["Gauche", "Droit", "Les deux également", "Aucun"],
-      "correct_answer_index": 0
+      "text": "Quelles sont les options que vous pouvez passer à un composant via le tableau props ?",
+      "type": "checkbox",
+      "choices": ["Données (data)", "Événements (events)", "Méthodes", "Paramètres de la route"],
+      "correct_indices": [3]
     },
     {
       "id": 5,
-      "text": "Quel nerf permet la vision ?",
-      "choices": ["Nerf vague", "Nerf optique", "Nerf olfactif", "Nerf sciatique"],
-      "correct_answer_index": 1
+      "text": "Quel objet de navigateur est souvent utilisé pour stocker temporairement l'état (comme le score du quiz) ?",
+      "choices": ["URLSearchParams", "DOM", "SessionStorage", "Window"],
+      "correct_answer_index": 2
     },
     {
       "id": 6,
-      "text": "Quel examen mesure l'activité électrique du cerveau ?",
-      "choices": ["IRM", "Scanner", "Électroencéphalogramme (EEG)", "Radio du crâne"],
-      "correct_answer_index": 2
+      "text": "Comment doit être nommé le fichier de données sur GitHub pour qu'il soit utilisé par My JSON Server ?",
+      "input_type": "text",
+      "correct_answer": "db.json"
     },
     {
       "id": 7,
-      "text": "Quelle fonction dépend principalement du tronc cérébral ?",
-      "choices": ["Langage", "Équilibre", "Respiration", "Mémoire à long terme"],
-      "correct_answer_index": 2
+      "text": "Quelle méthode Axios est utilisée pour récupérer des données à partir d'une URL ?",
+      "choices": ["axios.post()", "axios.put()", "axios.delete()", "axios.get()"],
+      "correct_answer_index": 3
     },
     {
       "id": 8,
-      "text": "Quelle maladie entraîne une perte progressive de mémoire ?",
-      "choices": ["Parkinson", "Alzheimer", "Épilepsie", "Migraine chronique"],
-      "correct_answer_index": 1
+      "text": "Lequel des éléments suivants est un type de données primitif en JavaScript ?",
+      "choices": ["Array", "Object", "Boolean", "Function"],
+      "correct_answer_index": 2
     },
     {
       "id": 9,
-      "text": "Quel est le principal facteur d'un AVC ischémique ?",
-      "choices": ["Virus", "Bactérie", "Caillot sanguin", "Traumatisme léger"],
+      "text": "En JavaScript, quel mot-clé est utilisé pour déclarer une variable qui ne peut pas être réaffectée (dont la valeur ne peut pas changer) ?",
+      "choices": ["var", "let", "const", "new"],
       "correct_answer_index": 2
     },
     {
       "id": 10,
-      "text": "Quelle structure joue un rôle clé dans la mémoire à long terme ?",
-      "choices": ["Cervelet", "Hippocampe", "Hypophyse", "Cortex visuel"],
-      "correct_answer_index": 1
+      "text": "Quels sont les avantages d'utiliser des services (comme QuizService.js) pour les appels API ?",
+      "type": "checkbox",
+      "choices": ["Centralisation du code", "Réutilisation facile", "Découplage (moins de dépendances)", "Accès direct au DOM"],
+      "correct_indices": [0, 1, 2]
     }
   ],
 
   "questions_quiz3": [
     {
       "id": 1,
-      "text": "Quelle structure cérébrale est principalement impliquée dans la consolidation de la mémoire déclarative à long terme ?",
-      "choices": ["Amygdale", "Hippocampe", "Cortex pariétal", "Thalamus"],
-      "correct_answer_index": 1
+      "text": "Quelle directive est utilisée pour afficher une liste d'éléments à partir d'un tableau en Vue.js ?",
+      "choices": ["v-bind", "v-on", "v-for", "v-show"],
+      "correct_answer_index": 2
     },
     {
       "id": 2,
-      "text": "Quel neurotransmetteur est le plus étroitement associé au contrôle moteur dans la voie nigrostriée ?",
-      "choices": ["Sérotonine", "Dopamine", "Acétylcholine", "Noradrénaline"],
-      "correct_answer_index": 1
+      "text": "Dans une promesse JavaScript (Promise), quelle méthode est utilisée pour gérer une erreur ou un échec ?",
+      "choices": ["then()", "finally()", "catch()", "done()"],
+      "correct_answer_index": 2
     },
     {
       "id": 3,
-      "text": "Quelle aire cérébrale est essentielle à la production du langage articulé, et dont la lésion entraîne une aphasie non fluente ?",
-      "choices": ["Aire de Wernicke", "Aire de Broca", "Cortex cingulaire antérieur", "Gyrus angulaire"],
-      "correct_answer_index": 1
+      "text": "Que signifie l'acronyme DOM dans le contexte du développement Web ?",
+      "input_type": "text",
+      "correct_answer": "Document Object Model"
     },
     {
       "id": 4,
-      "text": "Quel type de cellules gliales est responsable de la myélinisation des axones dans le système nerveux central ?",
-      "choices": ["Cellules de Schwann", "Astrocytes", "Oligodendrocytes", "Microglie"],
+      "text": "Lors de la création d'une route Vue dynamique (/quiz/:quizName/question/:id), comment l'ID est-il récupéré dans le composant ?",
+      "choices": ["this.$data.id", "this.params.id", "this.id (si prop)", "this.$route.query.id"],
       "correct_answer_index": 2
     },
     {
       "id": 5,
-      "text": "Quelle région du cerveau est principalement affectée dans la maladie de Parkinson ?",
-      "choices": ["Locus coeruleus", "Substance noire (pars compacta)", "Noyau caudé", "Noyau rouge"],
-      "correct_answer_index": 1
-    },
-    {
-      "id": 6,
-      "text": "Quel cortex sensoriel primaire est localisé dans le gyrus postcentral ?",
-      "choices": ["Cortex visuel primaire (V1)", "Cortex auditif primaire (A1)", "Cortex somatosensoriel primaire (S1)", "Cortex moteur primaire (M1)"],
-      "correct_answer_index": 2
-    },
-    {
-      "id": 7,
-      "text": "Quelle onde cérébrale est typiquement observée pendant le sommeil profond (stade N3) ?",
-      "choices": ["Ondes alpha", "Ondes bêta", "Ondes thêta", "Ondes delta"],
+      "text": "En utilisant Axios, quelle est la propriété de l'objet de réponse qui contient les données JSON renvoyées par le serveur ?",
+      "choices": ["status", "headers", "config", "data"],
       "correct_answer_index": 3
     },
     {
+      "id": 6,
+      "text": "Quel est le nom de la fonction qui permet d'insérer un tableau de routes dans l'application Vue ?",
+      "input_type": "text",
+      "correct_answer": "createRouter"
+    },
+    {
+      "id": 7,
+      "text": "Quelles sont les méthodes de navigation fournies par Vue Router ?",
+      "type": "checkbox",
+      "choices": ["push()", "pop()", "replace()", "go()"],
+      "correct_indices": [0, 2, 3]
+    },
+    {
       "id": 8,
-      "text": "Quel phénomène décrit l’augmentation durable de l’efficacité synaptique après une stimulation répétée ?",
-      "choices": ["Inhibition latérale", "Plasticité neuronale", "Potentialisation à long terme (LTP)", "Dépression à long terme (LTD)"],
+      "text": "Quel est le principal inconvénient d'utiliser des données 'hard-coded' (écrites directement dans le composant) ?",
+      "choices": ["Performance réduite.", "Non réactives.", "Difficile à mettre à jour et non dynamiques.", "Problèmes de style CSS."],
       "correct_answer_index": 2
     },
     {
       "id": 9,
-      "text": "Quelle structure joue un rôle central dans la régulation de l'homéostasie, notamment de la température corporelle et de la faim ?",
-      "choices": ["Thalamus", "Hypothalamus", "Cortex préfrontal", "Cervelet"],
-      "correct_answer_index": 1
+      "text": "Quel est le code de statut HTTP qu'un serveur renvoie typiquement pour signifier qu'une ressource demandée est introuvable ?",
+      "input_type": "text",
+      "correct_answer": "404"
     },
     {
       "id": 10,
-      "text": "Quel faisceau nerveux relie les deux hémisphères cérébraux et permet la communication interhémisphérique ?",
-      "choices": ["Faisceau arqué", "Corps calleux", "Capsule interne", "Fornix"],
+      "text": "Comment doit être structurée une fonction exportée dans un Service (ex: QuizService.js) pour qu'elle soit facilement utilisable ?",
+      "choices": ["Elle doit être une classe.", "Elle doit retourner une Promesse.", "Elle doit être synchrone.", "Elle doit manipuler le DOM."],
       "correct_answer_index": 1
     }
   ],
